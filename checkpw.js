@@ -39,5 +39,5 @@ function togglePassword() {
     var togglePW = document.getElementById('togglePW');
 
     passInput.type === "password" ? passInput.type = "text" : passInput.type = "password";
-    togglePW.textContent === "Show Password" ? togglePW.textContent = "Hide Password" : togglePW.textContent = "Show Password";
+    togglePW.textContent === "Show Password" ? togglePW.textContent = '<i class="fa fa-eye-slash" aria-hidden="true"></i>' : togglePW.textContent = '<i class="fa fa-eye" aria-hidden="true">';
 }
