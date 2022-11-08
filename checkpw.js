@@ -31,7 +31,7 @@ function checkIfOneDigit(text) {
 }
 
 function checkIfOneSpecialChar(text) {
-    return /[~`!#$%\^&*+=\-\[\]\\';,/{}|\\":<>\?]/g.test(text);
+    return /[~`!#$%\^&\*+@=\-\[\]\\';,\/{}|\\":\(\)<>\?]/g.test(text);
 }
 
 function togglePassword() {
